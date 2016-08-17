@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_item_background"
+    android:orientation="vertical"
+    android:id="@+id/layout_latest_news_background">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_latest_news_item"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/light_item"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_latest_news_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="今日热闻"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/layout_latest_news_title">
+
+
+            <ImageView
+                android:id="@+id/iv_latest_news_title"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_latest_news_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/iv_latest_news_title"
+                android:padding="5dp"
+                android:text="如何看待当下这种越来越普遍的“沉默”人格？"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </FrameLayout>
+</LinearLayout>
