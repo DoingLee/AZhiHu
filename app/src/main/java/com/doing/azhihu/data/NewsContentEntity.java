@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class NewsContentEntity {
     /**
-     * http://news-at.zhihu.com/api/4/news/3892357
+     * http://news-at.zhihu.com/api/4/news/7053854
      *
      * body : "..."
      * id : 7053854
